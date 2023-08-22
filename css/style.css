@@ -1,0 +1,164 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Source Sans 3', sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans 3', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+	padding: 10px 0px;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+	
+}
+.header .navbar-expand-lg .navbar-nav .nav-link{
+	color: #d3d2d2;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0px 0px 0px 25px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:hover, .header .navbar-expand-lg .navbar-nav .nav-link:focus{
+	background: url("../images/line.png") center bottom no-repeat;
+	background-size: auto;
+}
+.header .navbar-nav .nav-link.active{
+	background: url("../images/line.png") center bottom no-repeat;
+	background-size: auto;
+}
+.banner{
+	width: 100%;
+	padding: 180px 0px;
+}
+.banner h4{
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #08c;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+}
+.banner h1{
+	font-size: 56px;
+	font-weight: 700;
+	color: #fff;
+	line-height: 1.2em;
+	margin: 15px 0px;
+}
+.banner p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #999999;
+	line-height: 1.8em;
+	
+}
+.banner .action-buttons{
+	width: 100%;
+	padding: 40px 0px 0px ;
+}
+.banner .action-buttons .btn-primary{
+	padding: 15px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background: #08c;
+    border: 1px solid #08c;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 0px 20px 0px 0px;
+    transition: 1s;
+}
+.banner .action-buttons .btn-primary:hover{
+ 	background: transparent;
+    border: 1px solid #08c;
+    color: #08c;
+}
+.banner .action-buttons .btn-primary:focus{
+	background: transparent;
+    border: 1px solid #08c;
+    color: #08c;
+}
+.banner .action-buttons .btn-info{
+	padding: 15px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background: transparent;
+    border: 1px solid #999;
+    color: #fff;
+    letter-spacing: 1px;
+    transition: 1s;
+}
+.banner .action-buttons .btn-info:hover{
+	background: #08c;
+    border: 1px solid #08c;
+    color: #fff;
+}
+.banner .action-buttons .btn-info:focus{
+	background: #08c;
+    border: 1px solid #08c;
+    color: #fff;
+}
+/*title global css start here*/
+.title{
+	width: 100%;
+}
+.title h4{
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #08c;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+}
+.title h1{
+	font-size: 56px;
+	font-weight: 500;
+	color: #000;
+	line-height: 1.2em;
+	margin: 15px 0px;
+}
+/*title global css end here*/
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+}
+.feature .title{
+	padding: 0px 0px 60px 0px;
+	text-align: center  ;
+}
+.inner-feature{
+	width: 100%;
+	padding: 20px 35px;
+	text-align: center;
+}
+.inner-feature .icon-box{
+	width: 85px;
+	height: 85px;
+	line-height: 85px;
+	border-radius: 100%;
+	border: 1px solid #eee;
+	margin: 0px auto 30px;
+}
+.inner-feature h4{
+	font-size: 22px;
+	line-height: 1.2em;
+	font-weight: 600;
+	color: #000;
+}
+.inner-feature p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color: #999999;
+}
